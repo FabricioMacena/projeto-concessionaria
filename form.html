@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Confirmação</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main confirm">
+        <a href="consultas.html"><img src="/imgs/seta.png" alt="voltar" id="seta"></a>
+        <div id="infoForm">
+            <p>Insira suas seus dados e data referente á consulta desejada do veículo na loja!</p>
+        </div>
+        <form action="">
+            <legend>Formulário</legend>
+            <input type="text" name="nome" id="iptNome" placeholder="Nome">
+            <input type="email" name="email" id="iptEmail" placeholder="Email">
+            <input type="date" name="data" id="iptData" placeholder="Data">
+            <textarea name="mensagem" id="iptMsg" cols="30" rows="5" placeholder="Mensagem (opcional)" style="resize: none"></textarea>
+            <input type="button" value="Enviar"
+            id="btnForm">
+        </form>
+    </div>
+    <script src="/assets/form.js"></script>
+</body>
+</html>
