@@ -8,7 +8,7 @@ btnForm.addEventListener('click', function(){
     if(nome == '' || data == '' || email == ''){
         alert('Ainda há campos para preencher!')
     } else{
-        document.querySelector('form').innerHTML = '<img src="/imgs/loading.gif" width="400px">'
+        document.querySelector('form').innerHTML = '<img src="imgs/loading.gif" width="400px">'
 
         let dia = data.substring(8, 10);
         let mes; 
